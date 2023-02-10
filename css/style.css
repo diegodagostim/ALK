@@ -4,12 +4,36 @@
 }
 
 .head-menu {
+  width: 100%;
+  height: 450px;
+  background-image: url(/images/jumbotron-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .head-top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 65px;
+  font-size: 15px;
+}
+
+.head-top-menu a:hover {
+  border-bottom: 1px solid white;
+  transition: 5ms;
+  font-weight: bold;
+}
+
+.head-top-menu img {
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .head-bottom-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .head-bottom-content h1 {
