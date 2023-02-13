@@ -45,12 +45,14 @@
   font-weight: 700;
   color: white;
   margin-top: 135px;
+  text-shadow: rgb(55, 55, 55) 0.1em 0.1em;
 }
 
 .head-bottom-content p {
   font-size: 20px;
   font-weight: 400;
   color: white;
+  text-shadow: rgb(55, 55, 55) 0.1em 0.1em;
 }
 
 .head-bottom-content button {
