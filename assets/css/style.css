@@ -1,13 +1,4 @@
-/**
-* Template Name: Delicious - v4.10.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* General Config */
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
@@ -32,9 +23,8 @@ h6 {
   font-family: "Satisfy", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+/*Back to TOP Btn*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -65,12 +55,11 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+/*Top Bar*/
+
 #topbar {
   padding: 0;
-  font-size: 15px;
+  font-size: 14px;
   height: 50px;
   transition: all 0.5s;
   background: rgba(26, 24, 22, 0.8);
@@ -97,9 +86,7 @@ h6 {
   padding-left: 5px;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/*Header Section*/
 #header {
   top: 50px;
   height: 70px;
@@ -138,9 +125,7 @@ h6 {
   max-height: 40px;
 }
 
-/*--------------------------------------------------------------
-# Book a table button Menu
---------------------------------------------------------------*/
+/*Book a service*/
 .book-a-table-btn {
   background: #ffb03b;
   color: #fff;
@@ -167,12 +152,8 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/*Main Nav Menu*/
+
 .navbar {
   padding: 0;
 }
@@ -212,7 +193,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #ffb03b;
 }
 
@@ -249,11 +230,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #ffb03b;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -265,7 +246,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -277,14 +258,12 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
 
-/**
-* Mobile Navigation 
-*/
+/*Media Queries*/
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -345,7 +324,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #ffb03b;
 }
 
@@ -380,17 +359,15 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #ffb03b;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+/*Hero*/
 #hero {
   width: 100%;
   height: 100vh;
@@ -546,9 +523,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/*General*/
 section {
   padding: 60px 0;
 }
@@ -584,9 +559,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
+/*Breadcrumbs*/
 .breadcrumbs {
   padding: 20px 0;
   background-color: #f2f1ef;
@@ -621,11 +594,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -646,9 +619,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/*About*/
 .about {
   background: #fffaf3;
 }
@@ -679,7 +650,7 @@ section {
   padding: 0;
 }
 
-.about .content ul li+li {
+.about .content ul li + li {
   margin-top: 15px;
 }
 
@@ -782,7 +753,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
   .about .content,
   .about .accordion-list {
     padding-left: 0;
@@ -824,9 +794,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Whu Us
---------------------------------------------------------------*/
+/*Why*/
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -868,9 +836,7 @@ section {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Menu Section
---------------------------------------------------------------*/
+/*Menu Section*/
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -913,7 +879,9 @@ section {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................""....................................................................""....................................................................";
+  content: "......................................................................"
+    "...................................................................."
+    "....................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -947,9 +915,6 @@ section {
   color: #948c81;
 }
 
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
 .specials {
   overflow: hidden;
 }
@@ -1010,9 +975,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Events
---------------------------------------------------------------*/
 .events {
   background: url(../img/events-bg.jpg) center center no-repeat;
   background-size: cover;
@@ -1104,9 +1066,7 @@ section {
   background-color: #ffb03b;
 }
 
-/*--------------------------------------------------------------
-# Book A Table
---------------------------------------------------------------*/
+/*Book a Service*/
 .book-a-table .php-email-form {
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1135,7 +1095,7 @@ section {
   font-weight: 600;
 }
 
-.book-a-table .php-email-form .error-message br+br {
+.book-a-table .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1183,7 +1143,7 @@ section {
   padding: 10px 12px;
 }
 
-.book-a-table .php-email-form button[type=submit] {
+.book-a-table .php-email-form button[type="submit"] {
   background: #ffb03b;
   border: 0;
   padding: 10px 24px;
@@ -1192,13 +1152,11 @@ section {
   border-radius: 50px;
 }
 
-.book-a-table .php-email-form button[type=submit]:hover {
+.book-a-table .php-email-form button[type="submit"]:hover {
   background: #ffa012;
 }
 
-/*--------------------------------------------------------------
-# Gallery
---------------------------------------------------------------*/
+/*Gallery*/
 .gallery {
   padding-bottom: 0;
 }
@@ -1217,9 +1175,7 @@ section {
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Chefs
---------------------------------------------------------------*/
+/*Staff*/
 .chefs {
   background: url("../img/chefs-bg.jpg") center center no-repeat;
   background-size: cover;
@@ -1432,9 +1388,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+/*Contact*/
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -1543,7 +1497,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #ffb03b;
   border: 0;
   padding: 10px 24px;
@@ -1552,7 +1506,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #ffa012;
 }
 
@@ -1576,9 +1530,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/*Footer*/
 #footer {
   background: #35322d;
   color: #fff;
