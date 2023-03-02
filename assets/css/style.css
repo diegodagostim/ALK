@@ -1249,20 +1249,20 @@ section {
   font-size: 13px;
 }
 
-.chefs .member .social {
+.chefs .member .icon {
   margin-top: 15px;
 }
 
-.chefs .member .social a {
+.chefs .member .icon a {
   transition: color 0.3s;
   color: #7a7368;
 }
 
-.chefs .member .social a:hover {
+.chefs .member .icon a:hover {
   color: #ffb03b;
 }
 
-.chefs .member .social i {
+.chefs .member .icon i {
   font-size: 16px;
   margin: 0 2px;
 }
