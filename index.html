@@ -476,10 +476,13 @@
             role="form"
             class="php-email-form"
           >
+          <input type="hidden" name="_next" value="./form_submitted.html">
+              <input type="hidden" name="_captcha" value="false">
             <div class="row form">
              
               
               <div class="col-lg-4 col-md-6 form-group">
+                
                 <input
                   type="text"
                   name="name"
@@ -497,7 +500,7 @@
                   class="form-control"
                   name="email"
                   id="email"
-                  placeholder="Email"
+                  placeholder="Email Address"
                   data-rule="email"
                   data-msg="Please enter a valid email"
                 />
